@@ -1,15 +1,9 @@
 import discord
-print('imported discord')
 from discord.ext import commands
-print('imported commands from discord.ext')
 import os
-print('imported os')
 import json
-print('imported json')
 import jishaku
-print('imported jishaku')
 import random
-print('imported random')
 from datetime import datetime
 import asyncio
 import humanize
