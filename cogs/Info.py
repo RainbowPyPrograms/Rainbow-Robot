@@ -23,7 +23,7 @@ class info(commands.Cog):
         self.client = client
 
 
-    @commands.command(alais=['si', 'gi', 'guildinfo'])
+    @commands.command(alias=['si', 'gi', 'guildinfo'])
     async def serverinfo(self, ctx, *, guild_id: int = None):
         guild = guild_id or ctx.guild
         member_by_status = Counter(str(m.status) for m in guild.members)
